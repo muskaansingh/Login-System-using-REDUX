@@ -1,0 +1,45 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.login-form input {
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0, 0.24);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2px;
+    font-size: 17px;
+    background: rgb(209, 209, 209);
+    font-weight: 400;
+}
+
+.submit-btn {
+    padding: 17px 30px;
+    margin-top: 10px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+}

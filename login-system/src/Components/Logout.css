@@ -1,0 +1,24 @@
+.logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logout-button{
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+}
+
+.username{
+    color: coral;
+}
